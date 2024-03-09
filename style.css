@@ -25,30 +25,21 @@ header {
   border-bottom: 7px solid #ffffff;
 }
 
-main {
-  height: 65vh;
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .left {
-  width: 52rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 250px;
   position: relative;
-  top: -100px;
-  left: 39%;
+  top: 100px;
+  display: block;
+  margin: auto;
 }
 
 .right {
-  width: 52rem;
+  width: 40rem;
   font-size: 2rem;
   position: relative;
   top: 155px;
-  left: -25%;
+  display: block;
+  margin: auto;
 }
 
 /* ELEMENTS STYLE */
@@ -76,17 +67,17 @@ h1 {
 }
 
 .between {
-  font-size: 1.4rem;
-  position: absolute;
-  top: 2rem;
-  right: 8.5rem;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  top: 25px;
 }
 
 .again {
   display: block;
   margin: auto;
   position: relative;
-  top: 86rem;
+  top: 83rem;
 }
 
 .guess {
@@ -97,11 +88,13 @@ h1 {
   font-size: 5rem;
   padding: 2.5rem;
   width: 25rem;
-  text-align: center;
   display: block;
   margin-bottom: 3rem;
 }
-
+.btn.check {
+  display: block;
+  margin: auto;
+}
 .btn {
   border: none;
   background-color: #eee;
@@ -118,16 +111,28 @@ h1 {
 
 .message {
   margin-bottom: 8rem;
-  height: 3rem;
+
   position: relative;
-
   width: 340px;
+  display: block;
+  margin: auto;
 }
-
 .label-score {
   margin-bottom: 2rem;
+  position: relative;
+}
+.label-highscore {
+  position: relative;
 }
 .score-and-highscore {
   position: relative;
   top: -30px;
+}
+.right-content-div {
+  width: 300px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 50px;
 }
