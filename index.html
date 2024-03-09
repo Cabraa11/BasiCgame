@@ -8,27 +8,28 @@
     <title>Guess My Number!</title>
   </head>
   <body>
+    <p class="between">(Between 1 and 20)</p>
     <header>
       <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 20)</p>
+
       <button class="btn again">Again!</button>
       <div class="number">?</div>
     </header>
-    <main>
-      <section class="left">
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
-      </section>
-      <section class="right">
-        <p class="message">Start guessing...</p>
-        <div class="score-and-highscore">
-          <p class="label-score">💯 Score: <span class="score">20</span></p>
-          <p class="label-highscore">
-            🥇 Highscore: <span class="highscore">0</span>
-          </p>
-        </div>
-      </section>
-    </main>
+
+    <section class="left">
+      <input type="number" class="guess" />
+      <button class="btn check">Check!</button>
+    </section>
+    <section class="right">
+      <p class="message">Start guessing...</p>
+      <div class="right-content-div">
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
