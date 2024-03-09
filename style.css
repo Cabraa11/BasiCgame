@@ -83,7 +83,8 @@ h1 {
 }
 
 .again {
-  text-align: center;
+  display: block;
+  margin: auto;
   position: relative;
   top: 86rem;
 }
